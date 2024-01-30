@@ -1,0 +1,282 @@
+Package: com.cameronkatri.quickactions
+Version: 1.0.0-2
+Architecture: iphoneos-arm64e
+Maintainer: Cameron Katri <me+quickactions@cameronkatri.com>
+Installed-Size: 458
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/QuickAction.deb
+Size: 51198
+MD5sum: f5ac3302836a52bbfb06981bf303d531
+SHA1: 01f56ded1769012637bd8e002c90acf5a7417b94
+SHA256: 4d647132673fa3726846c3118f357edc6383506920fd2a607b5dad6719fbff27
+Section: Tweaks
+Description: Quickly launch apps from the lockscreen
+Tag: compatible_min::ios14.0
+Author: Cameron Katri <me+quickactions@cameronkatri.com>
+Depiction: https://chariz.com/get/quickactions
+Icon: https://img.chariz.cloud/icon/quickactions/icon@3x.png
+Name: QuickActions
+
+Package: com.creaturecoding.libcspreferences
+Version: 1.5.8
+Architecture: iphoneos-arm64e
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 2332
+Pre-Depends: rootless-compat(>= 0.1), firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: ./debs/libcspreferences.deb
+Size: 977888
+MD5sum: e1f6dd6063f18b8af62fae1494a49e88
+SHA1: f98245a4e92f4d4be61c3f0e025de484141dc0fd
+SHA256: 2c9630e474fd24424b02cc07c822cdd091754bd16a158a1a66ec18584c42873c
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A Preference Library that doesn't suck!
+Tag: compatible_min::iOS9
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+Name: libCSPreferences
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+
+Package: com.creaturecoding.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64e
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: rootless-compat(>= 0.1), firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debs/Shuffle.deb
+Size: 319636
+MD5sum: cbbf1f5bf9b202cafef084d3760b1d3b
+SHA1: 9bce54e06ff03ac729b92018bbe738be2d8d2d4a
+SHA256: 5698ad1464bcdbf31c509844ab94e922e5b9055f8451a2ceb0b590261cc045aa
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: Shuffle
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+
+Package: com.cydiageek.batteryfoldertitle
+Version: 1.1.5
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 382
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Filename: ./debs/BatteryFolderTitle.deb
+Size: 49278
+MD5sum: b003ae404c9e66a307c68fdbc2005daf
+SHA1: e9875ba7c95bed7b5df9d3d7b8b6fa5d0d97c004
+SHA256: 59891a5aada268131cccd429664296eadee0223c3194773464955037e75853d8
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batteryfoldertitleDp
+Description: Folders Titles Show Custom Battery Percentage & More!
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batteryfoldertitleDp
+Dev: lucaluca86
+Icon: file:///var/jb/Library/PreferenceBundles/BatteryFolderTitle.bundle/icon@2x.png
+Name: BatteryFolderTitle
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.icraze.rune
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: iCraze
+Installed-Size: 7376
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/Rune.deb
+Size: 1625698
+MD5sum: 2702619d09778fe9b821bc54cab107b0
+SHA1: c59b8c5d43a0eb3f1074c72015b5407fcbadbbc4
+SHA256: 68a0d411e0dbe3c009a7c6c21ff0ba3e8194cf2a2140f76d35afc76db3289b3e
+Section: Tweaks
+Description: Control at your fingertips
+Author: iCraze
+Name: Rune
+
+Package: com.miguelaka95.customizecc
+Version: 1.4.3
+Architecture: iphoneos-arm64e
+Maintainer: Miguelaka95 <miguelaka95@gmail.com>
+Installed-Size: 880
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15)
+Filename: ./debs/CustomiseCC.deb
+Size: 171658
+MD5sum: 0196b3adb1e2796f20c8743b96368b45
+SHA1: 7e16d617ab6745b137482d9b991e8fe407704c02
+SHA256: ba01ca3c6d35b7e0e7b2631583fa3ca70ac30e843a9a4a34bf78fac8b271353c
+Section: Tweaks
+Description: Customize your Control Center!
+ - Color Glyphs.
+ - Change the Modules color.
+ - Change the Brightness and Volume color.
+ - Change the Toggles and launchers color.
+ - Hide the background for each.
+ - Hide the overlay for all Toggles.
+ - Enable Borders for all Modules, Toggles and launchers.
+ - Change the Border color.
+ - Enable Glow effects for all Modules, Toggles and launchers.
+ - Change the Glow effects color.
+ - Support iOS 15 - 15.6.1.
+Author: Miguelaka95 <miguelaka95@gmail.com>
+Name: CustomizeCC (iOS 15)
+
+Package: com.mtac.lynxtwo
+Version: 2.4.6
+Architecture: iphoneos-arm64e
+Maintainer: MTAC
+Installed-Size: 2332
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/Lynx2.deb
+Size: 949040
+MD5sum: d33380bbd4871f973d7dfbf1abf3d7dd
+SHA1: bb3c25eb998d1608f3bf84fb2975b35e821a8c4a
+SHA256: 269d44eff2650ffd8c0d5920fc080fdd27535590f2e5e883345ca6450151ec4b
+Section: Tweaks
+Description: Ultimate iDevice Customization for iOS 14, 15 & 16
+Author: MTAC
+Name: Lynx 2
+
+Package: com.nahtedetihw.centeredlabels-rootless
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Pre-Depends: rootless-compat(>= 0.1)
+Filename: ./debs/CentredLabels.deb
+Size: 14824
+MD5sum: 0f699f5e0d58c4c686e5390b1c9fc621
+SHA1: b3b3cc046dd74c1de0bc05e6824aed8fc6169463
+SHA256: a123871138486e2be6afebb1cb6912d8f283fd6c0416d2d357ee0d306fd2ad5d
+Section: Tweaks
+Homepage: https://nahtedetihw.github.io
+Description: Center all labels in main Settings page.
+Tag: role::enduser
+Author: ETHN <ethanwhited2208@gmail.com>
+Depiction: https://nahtedetihw.github.io/depiction/web/com.nahtedetihw.centeredlabels-rootless.html
+Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.centeredlabels-rootless/icon.png
+Moderndepiction: https://nahtedetihw.github.io/depiction/native/com.nahtedetihw.centeredlabels-rootless.json
+Name: CenteredLabels-Rootless
+Sileodepiction: https://nahtedetihw.github.io/depiction/native/com.nahtedetihw.centeredlabels-rootless.json
+Someotherentrytocontrol: True
+Tags: compatible_min::ios13.0, compatible_max::ios16.4
+
+Package: com.nahtedetihw.floatingdockxvi
+Version: 1.8
+Architecture: iphoneos-arm64e
+Maintainer: Ethan Whited
+Installed-Size: 812
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: preferenceloader
+Filename: ./debs/floatingdockxvi.deb
+Size: 408212
+MD5sum: 0806707c832d5669bc8349e156da4232
+SHA1: 840f59ea1226740c3b2017534c2e963d9c2b2e22
+SHA256: eb8aa6b44564ee16eb9d1991f1adf608db2223214623db8f446493ae183bc800
+Section: Tweaks
+Description: Floating Dock on iOS 16
+Author: Ethan Whited
+Name: FloatingDockXVI
+
+Package: com.nightwind.jade
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Nightwind and thetimeloop <nightwinddev@gmail.com>
+Installed-Size: 1275
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/jade.deb
+Size: 357378
+MD5sum: 389b1762eef2c956273031f4aa5abfd2
+SHA1: d331fef0380a03d0584e878457afe45104fc1670
+SHA256: 40ffcf8d0d70b5c8adcd5229afd77264c2410b19f1e59d8b1909bcb77865198b
+Section: Tweaks
+Description: Your control center, brought anew.
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: Nightwind and thetimeloop <nightwinddev@gmail.com>
+Depiction: https://chariz.com/buy/jade
+Icon: https://img.chariz.cloud/icon/jade/icon@3x.png
+Name: Jade
+
+Package: com.p2kdev.underdock
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 528
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate
+Conflicts: com.restiveconch.actionbar,com.udevs.dockx
+Filename: ./debs/UnderDock.deb
+Size: 63568
+MD5sum: 38b41feed60c1fa9aee8b3482224aabf
+SHA1: f9458d670695475bfaa7be6f3bdfd15c51e8cd58
+SHA256: 922bc1a276ecc1d23a94aea9ac7e95b1c91f04a48f2d6cc23801ad2db282c886
+Section: Tweaks
+Description: Useful actions on the Keyboard Dock View!
+Author: P2KDev <p2kdev@gmail.com>
+Name: UnderDock
+
+Package: com.ryannair05.cask3
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: Ryan Nair
+Installed-Size: 848
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Replaces: com.ryannair05.cask2
+Filename: ./debs/cask3patch.deb
+Size: 320654
+MD5sum: f3063709eec036d885ea8dbcd28275d0
+SHA1: 3ffefd2219e11bbfc3ef8ddda29acf301a5aa360
+SHA256: d09e11c4a092c04dc8b27929d4925fab9a8c8ad812732ef1ae75af6b15cac89a
+Section: Tweaks
+Description: Animated table scrolling
+Author: Ryan Nair
+Name: Cask 3
+
+Package: xyz.cypwn.batterybuddy
+Version: 1.3.4
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Installed-Size: 432
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.batterybuddy
+Filename: ./debs/BatteryBuddy.deb
+Size: 48396
+MD5sum: 259f4d331624f8e343a7bf8e4acace9b
+SHA1: d7244458b009b6d40ffbee7cfe92d64784cb1191
+SHA256: e41de2334be15271049a95aa7c36ee2b87480de43af40b8850cb9e553ed4414a
+Section: Tweaks
+Description: Battery indicator, but cute
+Author: Traurige & neilsardesai <hello@traurige.dev>
+Depiction: https://repo.cypwn.xyz/depiction/1465
+Name: BatteryBuddy
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1465
+
+Package: xyz.cypwn.confirmrotate
+Version: 1.2.6
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist | com.hackyouriphone.libsparkapplist, xyz.cypwn.xinam1ne
+Filename: ./debs/ConfirmRotate.deb
+Size: 96462
+MD5sum: 48978a01440c2a51899bf36eb4b7efd0
+SHA1: 18b03161850ce788304c40646f5659448ad74d78
+SHA256: ecce09555b4fd095d02b162592ea3df0a4bbbe5e61861c37c73bb9ccbf06ab87
+Section: HYI - Tweaks
+Description: Ask before rotating!
+Author: CardboardFace
+Depiction: https://repo.cypwn.xyz/depiction/1825
+Name: ConfirmRotate
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1825
+
